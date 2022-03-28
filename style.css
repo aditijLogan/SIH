@@ -1,0 +1,475 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+.header {
+  display: grid;
+  margin: 0 auto;
+
+  grid-template-columns: 30% 40% 30%;
+  grid-gap: 10px;
+  width: 100%;
+}
+
+.logo img {
+  width: 154px;
+  height: 30px;
+
+  /* display: block; */
+  padding-left: 151px;
+  padding-top: 24px;
+}
+
+.menu {
+  padding-top: 16px;
+}
+
+.menu ul {
+  display: flex;
+  /* padding-top: 30px; */
+  /* width: 449px; */
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin: 10px;
+}
+.menu li a:hover {
+  color: blue;
+  font-weight: bold;
+}
+.btn1 {
+  margin-right: 34px;
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn1:hover {
+  font-weight: bold;
+}
+.btn2 {
+  margin-top: 14px;
+  padding: 9px 48px 10px 47px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  color: blue;
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn2:hover {
+  color: black;
+  font-weight: bold;
+  background-color: whitesmoke;
+  box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* why cryptern Section */
+.whyC {
+  /* margin: 0; */
+  position: relative;
+  /* border: 1px solid red; */
+}
+.whyC img {
+  /* background-image: url(/image/MaskGroup.png); */
+  width: 100%;
+  height: 600px;
+}
+.why {
+  position: absolute;
+  top: 90px;
+  left: 218px;
+}
+
+.why h1 {
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.why p {
+  font-size: 20px;
+  padding-top: 32px;
+  padding-bottom: 44px;
+}
+.btn3 {
+  color: white;
+  font-size: 16px;
+  background-color: #3751ff;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.btn3:hover {
+  color: white;
+  border-radius: 1px solid black;
+  /* background-color: #195317; */
+  font-weight: bold;
+  background-color: rgb(17, 17, 34);
+  box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.2);
+}
+.btn4 {
+  color: blue;
+  font-size: 16px;
+  /* background-color: #3751FF; */
+  padding: 10px 20px 10px 20px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  margin-left: 7px;
+}
+.btn4:hover {
+  color: black;
+
+  font-weight: bold;
+  background-color: rgba(245, 245, 245, 0.651);
+  box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* trust section  */
+.trust {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.trust h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* clogo Section */
+
+.clogo {
+  display: flex;
+  height: 37px;
+  /* width: 1000px; */
+  justify-content: space-evenly;
+}
+
+.clogo img {
+  height: 37px;
+}
+
+/* pool section  */
+
+.pool {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+.pool h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+/* Card Section  */
+.card {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cardItem {
+  background-color: #f8effe;
+  width: 360px;
+  height: 162px;
+  border-radius: 10px;
+
+  transition: all 0.5s ease-in-out;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.cardItem:hover {
+  box-shadow: none;
+}
+.cardItem div {
+  padding-left: 12px;
+  padding-top: 12px;
+}
+.cardItem div p {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.cardItem h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.cardlink {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  /* text-align: end; */
+  margin-right: 24px;
+}
+.cardItem div a {
+  /* justify-content: end; */
+  color: blue;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cardItem img {
+  position: absolute;
+  /* padding: 24px; */
+
+  width: 360px;
+  height: 162px;
+}
+.cardText {
+  position: relative;
+  /* top: 24px;
+    left: 24px; */
+}
+
+/* How It Works Section */
+.how {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 42px;
+}
+.how h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Job Section  */
+
+.job {
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  grid-gap: 30px;
+  justify-content: center;
+}
+.jobItem {
+  height: 216px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding-top: 18px;
+  padding-left: 24px;
+}
+.jobItem img {
+  height: 100px;
+  width: 100px;
+}
+.jobItem h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.jobItem h3:hover {
+  color: blue;
+}
+.jobItem p {
+  font-size: 16px;
+}
+/* Blog Section  */
+.blog {
+  margin-top: 100px;
+  margin-bottom: 38px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Blogcard Section  */
+.blogCard {
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  grid-gap: 30px;
+  justify-content: center;
+}
+.blogItem {
+  height: 350px;
+
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+.blogItem:hover {
+  transition: all 0.5s ease-in-out;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.blogItem img {
+  height: 166px;
+}
+.blogItem div {
+  padding-left: 24px;
+  padding-top: 24px;
+  /* padding: 24px; */
+}
+/* .blogItem div p{
+    margin-top: 4px;
+} */
+.blogL {
+  display: flex;
+
+  /* justify-content: center; */
+}
+.blogL p {
+  margin-top: 4px;
+  /* padding-bottom: 4px; */
+  /* margin-top: 4px; */
+
+  font-size: 12px;
+  font-weight: 400;
+}
+.blogL img {
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+}
+
+/* SignUp Section  */
+.signUpp {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.signUpp h1 {
+  font-size: 32px;
+  font-weight: 700px;
+}
+.signUpp p {
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.signUpp button {
+  color: aliceblue;
+  background-color: blue;
+  padding: 8px 20px 9px 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+.signUpp button:hover {
+  color: blue;
+  font-weight: bold;
+  background-color: aqua;
+  box-shadow: 4px 8px 10px 4px rgba(51, 40, 211, 0.356);
+}
+
+/* footer section  */
+.footer {
+  display: flex;
+  background-color: whitesmoke;
+  align-items: center;
+}
+.footItem {
+  margin: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.foot1 {
+  padding-left: 150px;
+  padding-bottom: 60px;
+}
+.foot1 p {
+  margin-top: 32px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.foot1 img {
+  width: 154px;
+  height: 34px;
+}
+
+.footItem li {
+  padding-top: 18px;
+  list-style: none;
+}
+
+.footItem li a {
+  text-decoration: none;
+}
+.footItem li a:hover {
+  color: blue;
+}
+.footItem3 {
+  margin-bottom: 160px;
+}
+
+.iconlogo img {
+  width: 14px;
+  height: 16px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+/* Copyright Section  */
+
+.copyRight {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: whitesmoke;
+  padding-bottom: 60px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.copyItem p {
+  margin-left: 150px;
+}
+.copyItem2 {
+  display: grid;
+  justify-content: end;
+}
+.copyItem2 ul {
+  display: flex;
+  margin-right: 150px;
+  z-index: 1;
+}
+.copyItem2 li {
+  margin-left: 10px;
+  list-style: none;
+}
+.copyItem2 li a {
+  text-decoration: none;
+}
+.copyItem2 li a:hover {
+  color: blue;
+}
+
+/* My Signature */
+.sign {
+  position: fixed;
+  /* z-index: 0; */
+  /* bottom: 100px; */
+
+  bottom: 6px;
+
+  right: 8px;
+  border-radius: 20px;
+  /* border: 3px solid blue; */
+  padding: 10px;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  background-color: whitesmoke;
+  /* margin-bottom: 5px; */
+}
+.sign:hover {
+  border: 1px solid #e8cefa;
+  /* transition: all 0s ease-in-out; */
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+  background-color: #f8effe;
+}
+.sign img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.photo {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-left: 20px; */
+}
